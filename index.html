@@ -7,43 +7,45 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>soy header</header>
-    <nav>soy nav</nav>
+ <header>Información sobre el producto</header>
+ <br>
     <section>
         <section> 
             <form action="" method="get">
                 <fieldset>
-                    <legend>Ejemplo</legend>
-                <label for="a">Nombres:</label><br>
-                <input type="text" id="caja1" class="cajita" name="nombres" placeholder="Nombres" ><br>
-                <input type="number" id="caja2" class="cajita" name="tel" placeholder="Telefono" ><br>
-                <input type="date" id="caja3" class="cajita" name="fechaN" placeholder="Fecha" ><br>
-                <input type="email" id="caja4" class="cajita" name="nombres" placeholder="Ingresar correo" ><br>
-                <input type="radio" id="caja5" class="cajita" name="sexo">Femenino<br>
-                <input type="radio" id="caja6" class="cajita" name="sexo">Masculino<br>
-                <label for="a">Hobbys:</label><br>
-                <input type="checkbox" id="caja7" class="cajita">Música<br>
-                <input type="checkbox" id="caja7" class="cajita">Lectura<br>
-                <input type="checkbox" id="caja7" class="cajita">Internet<br>
-                <input type="checkbox" id="caja7" class="cajita">Películas<br>
-                <select name="pais" id="pais">
-                    <option value="0">Seleccionar Pais</option>
-                    <option value="1">Peru</option>
-                    <option value="2">Ecuador</option>
-                    <option value="3">Argentina</option>
-                </select><br>
-                <input type="file" name="archivo" id="archivo">
-                <input type="button" value="Enviar">
+                    
+                <legend>Datos Básicos</legend>
+                
+                    <label for="a">Nombres</label><br>
+                    <input type="text"><br><br>
+                    <label for="a">Descripción</label><br>
+                    <textarea name="descripcion" id="" cols="30" name="10"></textarea><br><br>
+                    <label for="a">Foto</label>
+                    <input type="file" name="archivo" id="archivo" placeholder="Elegir"><br><br>
+                    <input type="checkbox">Añadir contador de visitas<br>
+
                 </fieldset>
+                <fieldset>
+                <legend>Datos económicos</legend><br>
+                    <label for="a">Precio</label>
+                    <input type="number">€
+                    <label for="a">Impuestos</label>
+                    <select name="impuestos" class ="Dateco" id="imp">
+                        <option value="0">Porcentaje</option>
+                        <option value="1">4%</option>
+                        <option value="2">7%</option>
+                        <option value="3">16%</option>
+                        <option value="4">25%</option>
+                    </select><br><br>
+                    <label for="a">Promoción</label>
+                    <input type="radio" id="" class="Dateco" name="promo">Ninguno<br>
+                    <input type="radio" id="" class="Dateco" name="promo">Transporte gratuito<br>
+                    <input type="radio" id="" class="Dateco" name="promo">Descuento 5%<br>
+                </fieldset>            
             </form>
         </section>
-        <aside>
-            <iframe src="home.html" frameborder="1" width="900" height="400"></iframe>
-        </aside>
-        <section>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </section>
+
     </section>
-    <footer>soy footer</footer>
+    <footer>@EstebanValverde</footer>
 </body>
 </html>
